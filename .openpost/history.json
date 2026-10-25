@@ -1,0 +1,443 @@
+[
+  {
+    "id": "1791618600650",
+    "timestamp": 1791618600650,
+    "request": {
+      "id": "1791618600507",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:8001/dev/mock-api/drowning/reset",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 405,
+      "statusText": "Method Not Allowed",
+      "headers": {
+        "allow": "POST",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Sat, 10 Oct 2026 07:50:00 GMT",
+        "host": "localhost:8001",
+        "x-powered-by": "PHP/8.4.5"
+      },
+      "body": "{\n    \"message\": \"The GET method is not supported for route dev/mock-api/drowning/reset. Supported methods: POST.\",\n    \"exception\": \"Symfony\\\\Component\\\\HttpKernel\\\\Exception\\\\MethodNotAllowedHttpException\",\n    \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php\",\n    \"line\": 130,\n    \"trace\": [\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php\",\n            \"line\": 115,\n            \"function\": \"requestMethodNotAllowed\",\n            \"class\": \"Illuminate\\\\Routing\\\\AbstractRouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php\",\n            \"line\": 41,\n            \"function\": \"getRouteForMethods\",\n            \"class\": \"Illuminate\\\\Routing\\\\AbstractRouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php\",\n            \"line\": 207,\n            \"function\": \"handleMatchedRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\AbstractRouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 777,\n            \"function\": \"match\",\n            \"class\": \"Illuminate\\\\Routing\\\\RouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 764,\n            \"function\": \"findRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 753,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Http\\\\Kernel::dispatchToRouter():197}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php\",\n            \"line\": 110,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php\",\n            \"line\": 61,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php\",\n            \"line\": 58,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php\",\n            \"line\": 22,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\InvokeDeferredCallbacks\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php\",\n            \"line\": 28,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePathEncoding\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php\",\n            \"line\": 1228,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/public/index.php\",\n            \"line\": 20,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php\",\n            \"line\": 23,\n            \"function\": \"require_once\"\n        }\n    ]\n}",
+      "time": 128,
+      "size": 10700,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1791618607932",
+    "timestamp": 1791618607932,
+    "request": {
+      "id": "1791618607534",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:8001/dev/mock-api/drowning/reset",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Sat, 10 Oct 2026 07:50:07 GMT",
+        "host": "localhost:8001",
+        "set-cookie": "laravel-session=eyJpdiI6Im11elZGOG9kdXJuMDRtSGI4bzBOQ3c9PSIsInZhbHVlIjoienMydUk2U0h4U0RadVFyVXBOditicm9NSldqN2FYODJ6UnFNVXN3djlpWWNqSHlYZm1XcnR4MHVqR1h1UGZtdUpqQXNhVnNieUpWTU13ZFFWbkVkR0NnN0s1WG9FNUV4L0hkM1IwSnQrd08vRXdVTFNETUQyWHRpcG15VTh2VE0iLCJtYWMiOiJkMDQ4OTZjZjJiZDc4YzQ4YzFlMjQ2YTI5NjcxODlkZTI2ODk2M2YzOGM2MmIxNjQzZTc0NTFlNjdmMGRjZDM2IiwidGFnIjoiIn0%3D; expires=Sat, 10 Oct 2026 09:50:07 GMT; Max-Age=7200; path=/; httponly; samesite=lax",
+        "x-powered-by": "PHP/8.4.5"
+      },
+      "body": "[{\"id\":1001,\"match\":\"Manchester United vs Newcastle\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1002,\"match\":\"Liverpool vs Manchester City\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1003,\"match\":\"Arsenal vs Tottenham\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2001,\"match\":\"Barcelona vs Real Madrid\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2002,\"match\":\"Atletico Madrid vs Sevilla\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}}]",
+      "time": 383,
+      "size": 675,
+      "cookies": [
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IlB0R3ZtQ0VhZHhqcnlXTnhjbDNaTFE9PSIsInZhbHVlIjoib2ZuMWdueHY2YkxUdWlDRkZWVnYyNDI0NVdFUmxHL0lTUyt2WU03OHliTUM1YU04NWx4MG1vaGI0TDlvbGVFYWFncFU2MVpGUk1SMTR5L3U3WDdJZkpVOGdlYlJVbVlWTjJHaG53YitWUUJudjRUWHRSUlZyRzlzTmd2V0tFVG4iLCJtYWMiOiJiMDc4YjA2OTg4NDJhODg5NzgyMjc0MTEzMDgzODBlZTQ4Njk1MmE2NzNiZjMwNTRkMWI5YjJkOGI4MDEyN2ZmIiwidGFnIjoiIn0%3D",
+          "domain": "localhost",
+          "path": "/",
+          "expires": "2026-10-10T09:50:07.929Z",
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax",
+          "createdAt": "2026-10-10T07:50:07.929Z"
+        },
+        {
+          "name": "laravel-session",
+          "value": "eyJpdiI6Im11elZGOG9kdXJuMDRtSGI4bzBOQ3c9PSIsInZhbHVlIjoienMydUk2U0h4U0RadVFyVXBOditicm9NSldqN2FYODJ6UnFNVXN3djlpWWNqSHlYZm1XcnR4MHVqR1h1UGZtdUpqQXNhVnNieUpWTU13ZFFWbkVkR0NnN0s1WG9FNUV4L0hkM1IwSnQrd08vRXdVTFNETUQyWHRpcG15VTh2VE0iLCJtYWMiOiJkMDQ4OTZjZjJiZDc4YzQ4YzFlMjQ2YTI5NjcxODlkZTI2ODk2M2YzOGM2MmIxNjQzZTc0NTFlNjdmMGRjZDM2IiwidGFnIjoiIn0%3D",
+          "domain": "localhost",
+          "path": "/",
+          "expires": "2026-10-10T09:50:07.930Z",
+          "httpOnly": true,
+          "secure": false,
+          "sameSite": "Lax",
+          "createdAt": "2026-10-10T07:50:07.930Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1791620535184",
+    "timestamp": 1791620535184,
+    "request": {
+      "id": "1791620534913",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:8001/dev/mock-api/drowning/show",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Cookie",
+          "value": "XSRF-TOKEN=eyJpdiI6IlB0R3ZtQ0VhZHhqcnlXTnhjbDNaTFE9PSIsInZhbHVlIjoib2ZuMWdueHY2YkxUdWlDRkZWVnYyNDI0NVdFUmxHL0lTUyt2WU03OHliTUM1YU04NWx4MG1vaGI0TDlvbGVFYWFncFU2MVpGUk1SMTR5L3U3WDdJZkpVOGdlYlJVbVlWTjJHaG53YitWUUJudjRUWHRSUlZyRzlzTmd2V0tFVG4iLCJtYWMiOiJiMDc4YjA2OTg4NDJhODg5NzgyMjc0MTEzMDgzODBlZTQ4Njk1MmE2NzNiZjMwNTRkMWI5YjJkOGI4MDEyN2ZmIiwidGFnIjoiIn0%3D; laravel-session=eyJpdiI6Im11elZGOG9kdXJuMDRtSGI4bzBOQ3c9PSIsInZhbHVlIjoienMydUk2U0h4U0RadVFyVXBOditicm9NSldqN2FYODJ6UnFNVXN3djlpWWNqSHlYZm1XcnR4MHVqR1h1UGZtdUpqQXNhVnNieUpWTU13ZFFWbkVkR0NnN0s1WG9FNUV4L0hkM1IwSnQrd08vRXdVTFNETUQyWHRpcG15VTh2VE0iLCJtYWMiOiJkMDQ4OTZjZjJiZDc4YzQ4YzFlMjQ2YTI5NjcxODlkZTI2ODk2M2YzOGM2MmIxNjQzZTc0NTFlNjdmMGRjZDM2IiwidGFnIjoiIn0%3D",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 405,
+      "statusText": "Method Not Allowed",
+      "headers": {
+        "allow": "GET, HEAD",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Sat, 10 Oct 2026 08:22:15 GMT",
+        "host": "localhost:8001",
+        "x-powered-by": "PHP/8.4.5"
+      },
+      "body": "{\n    \"message\": \"The POST method is not supported for route dev/mock-api/drowning/show. Supported methods: GET, HEAD.\",\n    \"exception\": \"Symfony\\\\Component\\\\HttpKernel\\\\Exception\\\\MethodNotAllowedHttpException\",\n    \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php\",\n    \"line\": 130,\n    \"trace\": [\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php\",\n            \"line\": 115,\n            \"function\": \"requestMethodNotAllowed\",\n            \"class\": \"Illuminate\\\\Routing\\\\AbstractRouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php\",\n            \"line\": 41,\n            \"function\": \"getRouteForMethods\",\n            \"class\": \"Illuminate\\\\Routing\\\\AbstractRouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php\",\n            \"line\": 207,\n            \"function\": \"handleMatchedRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\AbstractRouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 777,\n            \"function\": \"match\",\n            \"class\": \"Illuminate\\\\Routing\\\\RouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 764,\n            \"function\": \"findRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 753,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Http\\\\Kernel::dispatchToRouter():197}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php\",\n            \"line\": 110,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php\",\n            \"line\": 61,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php\",\n            \"line\": 58,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php\",\n            \"line\": 22,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\InvokeDeferredCallbacks\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php\",\n            \"line\": 28,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePathEncoding\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php\",\n            \"line\": 1228,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/public/index.php\",\n            \"line\": 20,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php\",\n            \"line\": 23,\n            \"function\": \"require_once\"\n        }\n    ]\n}",
+      "time": 244,
+      "size": 10705,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1791620545875",
+    "timestamp": 1791620545875,
+    "request": {
+      "id": "1791620545673",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:8001/dev/mock-api/drowning/show",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Cookie",
+          "value": "XSRF-TOKEN=eyJpdiI6IlB0R3ZtQ0VhZHhqcnlXTnhjbDNaTFE9PSIsInZhbHVlIjoib2ZuMWdueHY2YkxUdWlDRkZWVnYyNDI0NVdFUmxHL0lTUyt2WU03OHliTUM1YU04NWx4MG1vaGI0TDlvbGVFYWFncFU2MVpGUk1SMTR5L3U3WDdJZkpVOGdlYlJVbVlWTjJHaG53YitWUUJudjRUWHRSUlZyRzlzTmd2V0tFVG4iLCJtYWMiOiJiMDc4YjA2OTg4NDJhODg5NzgyMjc0MTEzMDgzODBlZTQ4Njk1MmE2NzNiZjMwNTRkMWI5YjJkOGI4MDEyN2ZmIiwidGFnIjoiIn0%3D; laravel-session=eyJpdiI6Im11elZGOG9kdXJuMDRtSGI4bzBOQ3c9PSIsInZhbHVlIjoienMydUk2U0h4U0RadVFyVXBOditicm9NSldqN2FYODJ6UnFNVXN3djlpWWNqSHlYZm1XcnR4MHVqR1h1UGZtdUpqQXNhVnNieUpWTU13ZFFWbkVkR0NnN0s1WG9FNUV4L0hkM1IwSnQrd08vRXdVTFNETUQyWHRpcG15VTh2VE0iLCJtYWMiOiJkMDQ4OTZjZjJiZDc4YzQ4YzFlMjQ2YTI5NjcxODlkZTI2ODk2M2YzOGM2MmIxNjQzZTc0NTFlNjdmMGRjZDM2IiwidGFnIjoiIn0%3D",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Sat, 10 Oct 2026 08:22:25 GMT",
+        "host": "localhost:8001",
+        "set-cookie": "laravel-session=eyJpdiI6IjBLdzBSdDl3bW8vQUtDWkgyS0FFOGc9PSIsInZhbHVlIjoiWXNCdWJyTHZIL0l1NFZmcUU3bVJoRU9VN0VTaTY5MDRrODd3ZFY3SDk5T2dqbXVJelE2K01Mc2FCdFNxeHFuUzJJYlBoSkNGMDU2MDV5Y0IvQno3RzkzSFlScm16ZE81Q1k0b0plTmJybGlQSDhEYjllNEg5RVc5NE4xTllWdkQiLCJtYWMiOiIwN2FiMDU0OWJlM2VjMWM1NjczYjliMWYxOTJlNDNhYjQxZmJkODg4MDE4ODZlZTgxYjlhMjA5OTBiNDA0MWQ0IiwidGFnIjoiIn0%3D; expires=Sat, 10 Oct 2026 10:22:25 GMT; Max-Age=7200; path=/; httponly; samesite=lax",
+        "x-powered-by": "PHP/8.4.5"
+      },
+      "body": "[{\"id\":1001,\"match\":\"Manchester United vs Newcastle\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1002,\"match\":\"Liverpool vs Manchester City\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1003,\"match\":\"Arsenal vs Tottenham\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2001,\"match\":\"Barcelona vs Real Madrid\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2002,\"match\":\"Atletico Madrid vs Sevilla\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}}]",
+      "time": 196,
+      "size": 675,
+      "cookies": [
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6ImZTUE9YbEVheUVIeVZZUVI1R1l0dHc9PSIsInZhbHVlIjoiQ1MxYkJDTkdxa3ZZRk1FTzRDdGQxTVI2RUVqZE5oRTBsV28yRldpTm9WK1ZTaE9JUFlTYU9YSWdTcUlWcEh0Z0VoVmRkOHJDV1BGS2NKK3diRTdaWGNyZGZSTnNaMVRYSFVrZmRnV0lGZjFITjJTNVc4VkJFUzZ4cldGd1hiM3EiLCJtYWMiOiJlOTE4M2EyMzAzM2Q2YTQ1YmVjZmFkNzc1ODI4NDljOWFkOTcyODg0N2Y5ZTk4Y2EwMzFkN2ExNmI1YjgwZmRiIiwidGFnIjoiIn0%3D",
+          "domain": "localhost",
+          "path": "/",
+          "expires": "2026-10-10T10:22:25.874Z",
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax",
+          "createdAt": "2026-10-10T08:22:25.874Z"
+        },
+        {
+          "name": "laravel-session",
+          "value": "eyJpdiI6IjBLdzBSdDl3bW8vQUtDWkgyS0FFOGc9PSIsInZhbHVlIjoiWXNCdWJyTHZIL0l1NFZmcUU3bVJoRU9VN0VTaTY5MDRrODd3ZFY3SDk5T2dqbXVJelE2K01Mc2FCdFNxeHFuUzJJYlBoSkNGMDU2MDV5Y0IvQno3RzkzSFlScm16ZE81Q1k0b0plTmJybGlQSDhEYjllNEg5RVc5NE4xTllWdkQiLCJtYWMiOiIwN2FiMDU0OWJlM2VjMWM1NjczYjliMWYxOTJlNDNhYjQxZmJkODg4MDE4ODZlZTgxYjlhMjA5OTBiNDA0MWQ0IiwidGFnIjoiIn0%3D",
+          "domain": "localhost",
+          "path": "/",
+          "expires": "2026-10-10T10:22:25.874Z",
+          "httpOnly": true,
+          "secure": false,
+          "sameSite": "Lax",
+          "createdAt": "2026-10-10T08:22:25.874Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1791621397910",
+    "timestamp": 1791621397910,
+    "request": {
+      "id": "1791621397703",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:8001/dev/mock-api/drowning/advance",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Cookie",
+          "value": "XSRF-TOKEN=eyJpdiI6ImZTUE9YbEVheUVIeVZZUVI1R1l0dHc9PSIsInZhbHVlIjoiQ1MxYkJDTkdxa3ZZRk1FTzRDdGQxTVI2RUVqZE5oRTBsV28yRldpTm9WK1ZTaE9JUFlTYU9YSWdTcUlWcEh0Z0VoVmRkOHJDV1BGS2NKK3diRTdaWGNyZGZSTnNaMVRYSFVrZmRnV0lGZjFITjJTNVc4VkJFUzZ4cldGd1hiM3EiLCJtYWMiOiJlOTE4M2EyMzAzM2Q2YTQ1YmVjZmFkNzc1ODI4NDljOWFkOTcyODg0N2Y5ZTk4Y2EwMzFkN2ExNmI1YjgwZmRiIiwidGFnIjoiIn0%3D; laravel-session=eyJpdiI6IjBLdzBSdDl3bW8vQUtDWkgyS0FFOGc9PSIsInZhbHVlIjoiWXNCdWJyTHZIL0l1NFZmcUU3bVJoRU9VN0VTaTY5MDRrODd3ZFY3SDk5T2dqbXVJelE2K01Mc2FCdFNxeHFuUzJJYlBoSkNGMDU2MDV5Y0IvQno3RzkzSFlScm16ZE81Q1k0b0plTmJybGlQSDhEYjllNEg5RVc5NE4xTllWdkQiLCJtYWMiOiIwN2FiMDU0OWJlM2VjMWM1NjczYjliMWYxOTJlNDNhYjQxZmJkODg4MDE4ODZlZTgxYjlhMjA5OTBiNDA0MWQ0IiwidGFnIjoiIn0%3D",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 405,
+      "statusText": "Method Not Allowed",
+      "headers": {
+        "allow": "POST",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Sat, 10 Oct 2026 08:36:37 GMT",
+        "host": "localhost:8001",
+        "x-powered-by": "PHP/8.4.5"
+      },
+      "body": "{\n    \"message\": \"The GET method is not supported for route dev/mock-api/drowning/advance. Supported methods: POST.\",\n    \"exception\": \"Symfony\\\\Component\\\\HttpKernel\\\\Exception\\\\MethodNotAllowedHttpException\",\n    \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php\",\n    \"line\": 130,\n    \"trace\": [\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php\",\n            \"line\": 115,\n            \"function\": \"requestMethodNotAllowed\",\n            \"class\": \"Illuminate\\\\Routing\\\\AbstractRouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php\",\n            \"line\": 41,\n            \"function\": \"getRouteForMethods\",\n            \"class\": \"Illuminate\\\\Routing\\\\AbstractRouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php\",\n            \"line\": 207,\n            \"function\": \"handleMatchedRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\AbstractRouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 777,\n            \"function\": \"match\",\n            \"class\": \"Illuminate\\\\Routing\\\\RouteCollection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 764,\n            \"function\": \"findRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 753,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Http\\\\Kernel::dispatchToRouter():197}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php\",\n            \"line\": 110,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php\",\n            \"line\": 61,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php\",\n            \"line\": 58,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php\",\n            \"line\": 22,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\InvokeDeferredCallbacks\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php\",\n            \"line\": 28,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePathEncoding\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php\",\n            \"line\": 1228,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/public/index.php\",\n            \"line\": 20,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/wanjohi/Code/Web/mock-football-api/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php\",\n            \"line\": 23,\n            \"function\": \"require_once\"\n        }\n    ]\n}",
+      "time": 164,
+      "size": 10702,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1791621405182",
+    "timestamp": 1791621405182,
+    "request": {
+      "id": "1791621404627",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:8001/dev/mock-api/drowning/advance",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Cookie",
+          "value": "XSRF-TOKEN=eyJpdiI6ImZTUE9YbEVheUVIeVZZUVI1R1l0dHc9PSIsInZhbHVlIjoiQ1MxYkJDTkdxa3ZZRk1FTzRDdGQxTVI2RUVqZE5oRTBsV28yRldpTm9WK1ZTaE9JUFlTYU9YSWdTcUlWcEh0Z0VoVmRkOHJDV1BGS2NKK3diRTdaWGNyZGZSTnNaMVRYSFVrZmRnV0lGZjFITjJTNVc4VkJFUzZ4cldGd1hiM3EiLCJtYWMiOiJlOTE4M2EyMzAzM2Q2YTQ1YmVjZmFkNzc1ODI4NDljOWFkOTcyODg0N2Y5ZTk4Y2EwMzFkN2ExNmI1YjgwZmRiIiwidGFnIjoiIn0%3D; laravel-session=eyJpdiI6IjBLdzBSdDl3bW8vQUtDWkgyS0FFOGc9PSIsInZhbHVlIjoiWXNCdWJyTHZIL0l1NFZmcUU3bVJoRU9VN0VTaTY5MDRrODd3ZFY3SDk5T2dqbXVJelE2K01Mc2FCdFNxeHFuUzJJYlBoSkNGMDU2MDV5Y0IvQno3RzkzSFlScm16ZE81Q1k0b0plTmJybGlQSDhEYjllNEg5RVc5NE4xTllWdkQiLCJtYWMiOiIwN2FiMDU0OWJlM2VjMWM1NjczYjliMWYxOTJlNDNhYjQxZmJkODg4MDE4ODZlZTgxYjlhMjA5OTBiNDA0MWQ0IiwidGFnIjoiIn0%3D",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Sat, 10 Oct 2026 08:36:45 GMT",
+        "host": "localhost:8001",
+        "set-cookie": "laravel-session=eyJpdiI6IkdrZFo5YWsvWHplSUhwY0oxUVZmUGc9PSIsInZhbHVlIjoianh1bGRHQ2JRUmhYb2FIVmtzNmpleXBPSUI1eWl3Rm1hbDFSa3FZRjZIcFhzems4YVl1TlIwdCswbVpqYlhDUE5aVFNGamdrZVN5MWRtVURFQW5adlM4djAxRlhDZzFvQURITGdpRTJRaG9GQVYvbTVVT0NRa0xqdjlwSE5vclkiLCJtYWMiOiI3NWJiZDBjNzlhZTMwODg0YjBjM2JmZTFlMTI0NTQ2NzUyZjI1NmQwZDlmNTcyMDJlNDZmNWZhZWFkZGJhYTdhIiwidGFnIjoiIn0%3D; expires=Sat, 10 Oct 2026 10:36:45 GMT; Max-Age=7200; path=/; httponly; samesite=lax",
+        "x-powered-by": "PHP/8.4.5"
+      },
+      "body": "[{\"id\":1001,\"match\":\"Manchester United vs Newcastle\",\"league\":\"Premier League\",\"status\":\"1H\",\"elapsed\":1,\"score\":{\"home\":null,\"away\":null}},{\"id\":1002,\"match\":\"Liverpool vs Manchester City\",\"league\":\"Premier League\",\"status\":\"1H\",\"elapsed\":1,\"score\":{\"home\":null,\"away\":null}},{\"id\":1003,\"match\":\"Arsenal vs Tottenham\",\"league\":\"Premier League\",\"status\":\"1H\",\"elapsed\":1,\"score\":{\"home\":null,\"away\":null}},{\"id\":2001,\"match\":\"Barcelona vs Real Madrid\",\"league\":\"La Liga\",\"status\":\"1H\",\"elapsed\":1,\"score\":{\"home\":null,\"away\":null}},{\"id\":2002,\"match\":\"Atletico Madrid vs Sevilla\",\"league\":\"La Liga\",\"status\":\"1H\",\"elapsed\":1,\"score\":{\"home\":null,\"away\":null}}]",
+      "time": 519,
+      "size": 660,
+      "cookies": [
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6ImpRVS9RR2tqQWJ5aUNKYTFaaU16OWc9PSIsInZhbHVlIjoiWmppR2xxbHBRVEtSZldLQVJUUFU4bTcwbU9mTHpDYXBxVHl1b0R6OXZXd1RNbWl3cUhVSjhadCt3QzR0SStuWmFtUWNVZFZGVWxkSnJ6Z3ZtKzFkQWk0UWYwNG1PVHhLZStrSHVER2VjUXJyakl1VEYwYzhiNHFndU52VldSa2QiLCJtYWMiOiJiNmZjZDkyYThiZDVhNDgzYmU3YjgwNThhN2JlOWJmY2Q4YzAwN2U0YTE5ZTU5YTMwZjdlY2JiYzdkNGNiZTk5IiwidGFnIjoiIn0%3D",
+          "domain": "localhost",
+          "path": "/",
+          "expires": "2026-10-10T10:36:45.178Z",
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax",
+          "createdAt": "2026-10-10T08:36:45.178Z"
+        },
+        {
+          "name": "laravel-session",
+          "value": "eyJpdiI6IkdrZFo5YWsvWHplSUhwY0oxUVZmUGc9PSIsInZhbHVlIjoianh1bGRHQ2JRUmhYb2FIVmtzNmpleXBPSUI1eWl3Rm1hbDFSa3FZRjZIcFhzems4YVl1TlIwdCswbVpqYlhDUE5aVFNGamdrZVN5MWRtVURFQW5adlM4djAxRlhDZzFvQURITGdpRTJRaG9GQVYvbTVVT0NRa0xqdjlwSE5vclkiLCJtYWMiOiI3NWJiZDBjNzlhZTMwODg0YjBjM2JmZTFlMTI0NTQ2NzUyZjI1NmQwZDlmNTcyMDJlNDZmNWZhZWFkZGJhYTdhIiwidGFnIjoiIn0%3D",
+          "domain": "localhost",
+          "path": "/",
+          "expires": "2026-10-10T10:36:45.178Z",
+          "httpOnly": true,
+          "secure": false,
+          "sameSite": "Lax",
+          "createdAt": "2026-10-10T08:36:45.178Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1791921713297",
+    "timestamp": 1791921713297,
+    "request": {
+      "id": "1791921710825",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:8001/dev/mock-api/drowning/reset",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Tue, 13 Oct 2026 20:01:53 GMT",
+        "host": "localhost:8001",
+        "set-cookie": "laravel-session=eyJpdiI6InRpRjBRT3FPRXVVeWtvdUlJRjZPQkE9PSIsInZhbHVlIjoiTlFGK1NITlh3a0lEMitTa05FNlhYUzIxYzc1L3BFbEczd2VuODFETjBkV3pJbHlmZGhvNUcrMjdVcFA3RCtpbmtBaU1qeUVkZkdER3dqRktnNkFhbHoxYm8zb3VwSERnbVlxeWNNSGVnbGljRlY4SzFSbCtlb2YwMWhvQUhJOEoiLCJtYWMiOiI0OGRiNWJmYjk3Y2Y4MmQwOTRiZTM5NjY4M2MyZWNiNTc0ZWZiMzQ2YTg3N2M2ZDlmMGQzOWE3NTNlYWNmZWI2IiwidGFnIjoiIn0%3D; expires=Tue, 13 Oct 2026 22:01:53 GMT; Max-Age=7200; path=/; httponly; samesite=lax",
+        "x-powered-by": "PHP/8.4.5"
+      },
+      "body": "[{\"id\":1001,\"match\":\"Manchester United vs Newcastle\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1002,\"match\":\"Liverpool vs Manchester City\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1003,\"match\":\"Arsenal vs Tottenham\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1004,\"match\":\"Chelsea vs Brighton\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1005,\"match\":\"Aston Villa vs Brentford\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1006,\"match\":\"Fulham vs Everton\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1007,\"match\":\"West Ham vs Crystal Palace\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1008,\"match\":\"Leicester vs Wolves\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1009,\"match\":\"Southampton vs Bournemouth\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1010,\"match\":\"Ipswich vs Nottingham Forest\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2001,\"match\":\"Barcelona vs Real Madrid\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2002,\"match\":\"Atletico Madrid vs Sevilla\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2003,\"match\":\"Valencia vs Villarreal\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2004,\"match\":\"Athletic Club vs Real Betis\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2005,\"match\":\"Real Sociedad vs Celta Vigo\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2006,\"match\":\"Espanyol vs Getafe\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2007,\"match\":\"Girona vs Leganes\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2008,\"match\":\"Osasuna vs Rayo Vallecano\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2009,\"match\":\"Mallorca vs Alaves\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2010,\"match\":\"Valladolid vs Almeria\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}}]",
+      "time": 2437,
+      "size": 2633,
+      "cookies": [
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6ImJOT01JNHpGNGpDY0JqTXJ5SW9PL1E9PSIsInZhbHVlIjoiNWNiejVMcmpFV3Y5U2RGTHhWdFJDNkNnN1h6Um9hR1pkWURvZ09QenFiVURuSnRSTFZpbHZHSk5ER1hobXJDMUxDR2VzeFpoYk4wSVVFY3N1WmhwU052SHhJaE5aUE1ucE1YRExMOSt5OVRqR050R1JwZlc0S0p6TGo2U0djSXMiLCJtYWMiOiI0MmNmN2ZiMjg0YmJiNTBlOTZkNzdmNTk0YzgwOTkyNzA3NDFjNWRkZDc5OTE2NTFhMWIzZTY4ZjYxMTFkNDRlIiwidGFnIjoiIn0%3D",
+          "domain": "localhost",
+          "path": "/",
+          "expires": "2026-10-13T22:01:53.294Z",
+          "httpOnly": false,
+          "secure": false,
+          "sameSite": "Lax",
+          "createdAt": "2026-10-13T20:01:53.294Z"
+        },
+        {
+          "name": "laravel-session",
+          "value": "eyJpdiI6InRpRjBRT3FPRXVVeWtvdUlJRjZPQkE9PSIsInZhbHVlIjoiTlFGK1NITlh3a0lEMitTa05FNlhYUzIxYzc1L3BFbEczd2VuODFETjBkV3pJbHlmZGhvNUcrMjdVcFA3RCtpbmtBaU1qeUVkZkdER3dqRktnNkFhbHoxYm8zb3VwSERnbVlxeWNNSGVnbGljRlY4SzFSbCtlb2YwMWhvQUhJOEoiLCJtYWMiOiI0OGRiNWJmYjk3Y2Y4MmQwOTRiZTM5NjY4M2MyZWNiNTc0ZWZiMzQ2YTg3N2M2ZDlmMGQzOWE3NTNlYWNmZWI2IiwidGFnIjoiIn0%3D",
+          "domain": "localhost",
+          "path": "/",
+          "expires": "2026-10-13T22:01:53.294Z",
+          "httpOnly": true,
+          "secure": false,
+          "sameSite": "Lax",
+          "createdAt": "2026-10-13T20:01:53.294Z"
+        }
+      ]
+    }
+  }
+]

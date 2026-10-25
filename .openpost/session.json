@@ -1,0 +1,138 @@
+{
+  "tabs": [
+    {
+      "id": "1791618534404bunz",
+      "tabKind": "request",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://localhost:8001/dev/mock-api/drowning/reset",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true,
+      "inheritScripts": false,
+      "preRequestScript": "",
+      "testScript": "",
+      "testRules": [],
+      "setVariables": [],
+      "activeTab": "headers",
+      "sourceRequestId": null,
+      "sourceCollectionId": null,
+      "sourceFolderPath": null,
+      "sourceScope": "local",
+      "proxyId": null,
+      "certificateConfig": null,
+      "inheritCertificate": false,
+      "response": {
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "cache-control": "no-cache, private",
+          "connection": "close",
+          "content-type": "application/json",
+          "date": "Tue, 13 Oct 2026 20:01:53 GMT",
+          "host": "localhost:8001",
+          "set-cookie": "laravel-session=eyJpdiI6InRpRjBRT3FPRXVVeWtvdUlJRjZPQkE9PSIsInZhbHVlIjoiTlFGK1NITlh3a0lEMitTa05FNlhYUzIxYzc1L3BFbEczd2VuODFETjBkV3pJbHlmZGhvNUcrMjdVcFA3RCtpbmtBaU1qeUVkZkdER3dqRktnNkFhbHoxYm8zb3VwSERnbVlxeWNNSGVnbGljRlY4SzFSbCtlb2YwMWhvQUhJOEoiLCJtYWMiOiI0OGRiNWJmYjk3Y2Y4MmQwOTRiZTM5NjY4M2MyZWNiNTc0ZWZiMzQ2YTg3N2M2ZDlmMGQzOWE3NTNlYWNmZWI2IiwidGFnIjoiIn0%3D; expires=Tue, 13 Oct 2026 22:01:53 GMT; Max-Age=7200; path=/; httponly; samesite=lax",
+          "x-powered-by": "PHP/8.4.5"
+        },
+        "body": "[{\"id\":1001,\"match\":\"Manchester United vs Newcastle\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1002,\"match\":\"Liverpool vs Manchester City\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1003,\"match\":\"Arsenal vs Tottenham\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1004,\"match\":\"Chelsea vs Brighton\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1005,\"match\":\"Aston Villa vs Brentford\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1006,\"match\":\"Fulham vs Everton\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1007,\"match\":\"West Ham vs Crystal Palace\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1008,\"match\":\"Leicester vs Wolves\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1009,\"match\":\"Southampton vs Bournemouth\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":1010,\"match\":\"Ipswich vs Nottingham Forest\",\"league\":\"Premier League\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2001,\"match\":\"Barcelona vs Real Madrid\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2002,\"match\":\"Atletico Madrid vs Sevilla\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2003,\"match\":\"Valencia vs Villarreal\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2004,\"match\":\"Athletic Club vs Real Betis\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2005,\"match\":\"Real Sociedad vs Celta Vigo\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2006,\"match\":\"Espanyol vs Getafe\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2007,\"match\":\"Girona vs Leganes\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2008,\"match\":\"Osasuna vs Rayo Vallecano\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2009,\"match\":\"Mallorca vs Alaves\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}},{\"id\":2010,\"match\":\"Valladolid vs Almeria\",\"league\":\"La Liga\",\"status\":\"NS\",\"elapsed\":null,\"score\":{\"home\":null,\"away\":null}}]",
+        "time": 2437,
+        "size": 2633,
+        "actualRequest": {
+          "method": "POST",
+          "url": "http://localhost:8001/dev/mock-api/drowning/reset",
+          "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+          },
+          "body": null,
+          "protocol": "HTTP/1.1",
+          "certificateNames": "System Trust Store"
+        },
+        "cookies": [
+          {
+            "name": "XSRF-TOKEN",
+            "value": "eyJpdiI6ImJOT01JNHpGNGpDY0JqTXJ5SW9PL1E9PSIsInZhbHVlIjoiNWNiejVMcmpFV3Y5U2RGTHhWdFJDNkNnN1h6Um9hR1pkWURvZ09QenFiVURuSnRSTFZpbHZHSk5ER1hobXJDMUxDR2VzeFpoYk4wSVVFY3N1WmhwU052SHhJaE5aUE1ucE1YRExMOSt5OVRqR050R1JwZlc0S0p6TGo2U0djSXMiLCJtYWMiOiI0MmNmN2ZiMjg0YmJiNTBlOTZkNzdmNTk0YzgwOTkyNzA3NDFjNWRkZDc5OTE2NTFhMWIzZTY4ZjYxMTFkNDRlIiwidGFnIjoiIn0%3D",
+            "domain": "localhost",
+            "path": "/",
+            "expires": "2026-10-13T22:01:53.294Z",
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax",
+            "createdAt": "2026-10-13T20:01:53.294Z"
+          },
+          {
+            "name": "laravel-session",
+            "value": "eyJpdiI6InRpRjBRT3FPRXVVeWtvdUlJRjZPQkE9PSIsInZhbHVlIjoiTlFGK1NITlh3a0lEMitTa05FNlhYUzIxYzc1L3BFbEczd2VuODFETjBkV3pJbHlmZGhvNUcrMjdVcFA3RCtpbmtBaU1qeUVkZkdER3dqRktnNkFhbHoxYm8zb3VwSERnbVlxeWNNSGVnbGljRlY4SzFSbCtlb2YwMWhvQUhJOEoiLCJtYWMiOiI0OGRiNWJmYjk3Y2Y4MmQwOTRiZTM5NjY4M2MyZWNiNTc0ZWZiMzQ2YTg3N2M2ZDlmMGQzOWE3NTNlYWNmZWI2IiwidGFnIjoiIn0%3D",
+            "domain": "localhost",
+            "path": "/",
+            "expires": "2026-10-13T22:01:53.294Z",
+            "httpOnly": true,
+            "secure": false,
+            "sameSite": "Lax",
+            "createdAt": "2026-10-13T20:01:53.294Z"
+          }
+        ],
+        "timingPhases": [
+          {
+            "name": "Environment",
+            "duration": 1
+          },
+          {
+            "name": "Auth",
+            "duration": 1
+          },
+          {
+            "name": "HTTP Request",
+            "duration": 2437
+          },
+          {
+            "name": "Post-processing",
+            "duration": 4
+          }
+        ]
+      },
+      "error": null,
+      "loading": false,
+      "wsConnected": false,
+      "wsUrl": null,
+      "wsMessages": [],
+      "groupId": null,
+      "mcpDescription": "",
+      "mcpInputSchema": "",
+      "collectionId": null,
+      "folderId": null,
+      "folderPath": null,
+      "editorScope": "local",
+      "grpcConnected": false,
+      "grpcStreaming": false,
+      "responseTab": "body"
+    }
+  ],
+  "groups": [],
+  "activeTabId": "1791618534404bunz",
+  "currentView": "requests",
+  "sidebarTab": "collections",
+  "sidebarCollapsed": true,
+  "responseTab": "body",
+  "layoutMode": "horizontal",
+  "splitRatio": 0.5,
+  "horizontalSplitRatio": 0.5,
+  "selectedMockServerId": null
+}
